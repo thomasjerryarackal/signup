@@ -1,18 +1,22 @@
+
 import 'package:flutter/material.dart';
-import 'SignUp.dart';
+import 'package:signup/screens/Landing.dart';
 
 
-void main() {
+Future<void> main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+
   runApp(Avaride());
 }
+
 
 class Avaride extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-      theme: ThemeData.light(),
-      home: SignUp(),
-    );
+      return MaterialApp(
+        debugShowCheckedModeBanner: false,
+        home: LandingPage(),
+      );
   }
 }
 

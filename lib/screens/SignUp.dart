@@ -37,8 +37,8 @@ class _SignUpState extends State<SignUp> {
                 height: 10,
               ),
 
-              Text(""
-                  "Create new account",
+              Text(
+                  "Create your Account",
                 style: TextStyle(
                   fontSize: 15,
                   color: Colors.grey[600],

@@ -1,3 +1,5 @@
+// this dart file is just a reference to the home page
+
 import 'package:flutter/material.dart';
 
 class HomePage extends StatelessWidget {
@@ -6,7 +8,11 @@ class HomePage extends StatelessWidget {
     return Scaffold(
       body: Center(
         child: Text(
-          "home page"
+          "home page",
+          style: TextStyle(
+            fontSize: 100.0,
+            color: Colors.pink
+          ),
         ),
       ),
     );
